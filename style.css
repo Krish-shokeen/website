@@ -1,0 +1,89 @@
+/* FILE: style.css */
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #fffbe6;
+    color: #333;
+  }
+  
+  header {
+    background: #ff66b2;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  .hero {
+    background: #ffd1dc;
+    padding: 2em;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .features {
+    display: flex;
+    gap: 1em;
+    margin-top: 2em;
+    justify-content: space-around;
+  }
+  
+  .features div {
+    background: #e0f7fa;
+    padding: 1em;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: 1em;
+  }
+  
+  form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #66cc66;
+    color: white;
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background: #55aa55;
+  }
+  
+  footer {
+    background: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
